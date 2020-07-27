@@ -1,0 +1,26 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+#container {
+    min-height: 100vh;
+    height:auto;
+    overflow: hidden;
+    display: flex;
+    background-color: #f7f8fd;
+}
+
+#container > div {
+    flex-basis: 50%;
+}
+
+.left-side {
+    border-right:solid 1px #f11359;
+}
+
+.right-side {
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+}
