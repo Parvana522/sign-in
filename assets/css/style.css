@@ -68,7 +68,7 @@ form > p {
 .input-container > input {
     border:none;
     outline: none;
-    color:#f7f8fd;
+    color:#cecece;
 }
 
 .input-container > i {
@@ -154,6 +154,10 @@ form > p {
 
 .socials > a > i {
     color:#f11359;
+}
+
+.fadeCss {
+	margin-top:15px;
 }
 
 .right-side {
