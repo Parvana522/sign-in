@@ -1,5 +1,5 @@
 function showPass(){
-	code=document.getElementById('pass');
+	var code=document.getElementById('pass');
 	if(code.type === 'password'){
 		code.type='text';
 	}
@@ -8,3 +8,11 @@ function showPass(){
 	}
 };
 
+
+let btn=document.getElementsByClassName('forget-btn')[0];
+
+btn.onclick=function(){
+	let modal=document.getElementsByClassName('modal')[0];
+	
+	modal.style.display='flex';
+}
