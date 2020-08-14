@@ -16,3 +16,13 @@ btn.onclick=function(){
 	
 	modal.style.display='flex';
 }
+
+let cancel=document.getElementsByClassName('cancel')[0];
+cancel.onclick=function(){
+	modal.style.display='none';
+}
+
+//window.onclick=function(){
+//	let modalBox=document.getElementsByClassName('modal-box')[0];
+//	modalBox.style.display='none'
+//}
